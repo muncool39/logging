@@ -9,4 +9,8 @@ public class TestApi {
     public String Test(){
         return "log test";
     }
+    @GetMapping("/exclude")
+    public String excludeTest(){
+        return "exclude";
+    }
 }

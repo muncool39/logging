@@ -26,6 +26,7 @@ dependencies {
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation 'org.springframework.boot:spring-boot-starter-aop' //AOP 사용을 위해 추가
 }
 
 tasks.named('bootBuildImage') {
